@@ -1,0 +1,10 @@
+[
+    { "id": 1, "name": "Programming", "description": "Courses related to programming languages and development." },
+    { "id": 2, "name": "Design", "description": "Courses on graphic design, UI/UX, and creative arts." },
+    { "id": 3, "name": "Data Science", "description": "Courses covering data analysis, machine learning, and statistics." },
+    { "id": 1, "name": "Programming", "description": "Courses related to programming languages and development." },
+    { "id": 2, "name": "Design", "description": "Courses on graphic design, UI/UX, and creative arts." },
+    { "id": 3, "name": "Data Science", "description": "Courses covering data analysis, machine learning, and statistics." }
+    
+  ]
+  

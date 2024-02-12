@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Introduction to Computer Science",
+      "code": "CS101",
+      "description": "An introductory course covering the basics of computer science.",
+      "credits": 3,
+      "prerequisites": []
+    },
+    {
+      "title": "Data Structures and Algorithms",
+      "code": "CS201",
+      "description": "A course focusing on fundamental data structures and algorithms.",
+      "credits": 4,
+      "prerequisites": ["CS101"]
+    },
+    {
+      "title": "Database Management Systems",
+      "code": "CS301",
+      "description": "A course covering the design and implementation of database systems.",
+      "credits": 3,
+      "prerequisites": ["CS201"]
+    },
+    {
+      "title": "Web Development",
+      "code": "CS401",
+      "description": "A course on building web applications using modern web technologies.",
+      "credits": 4,
+      "prerequisites": ["CS201"]
+    }
+]
+
