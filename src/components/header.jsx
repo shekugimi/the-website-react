@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Make sure to import Link if you're using React Router
 import '../styles/style.css';
+
+import logo from '../data/images/logo.png'; // Update the path accordingly
+import headerImage from '../data/images/header.svg'; // Update the path accordingly
 
 const Header = () => {
   useEffect(() => {
@@ -39,21 +43,22 @@ const Header = () => {
     <>
       <nav>
         <div className="container nav_container">
-          <a href="index.html">
-            <h4>EGATOR</h4>
+          <a href="/" class="flex items-center rounded rounded-2xl pl-1">
+            <img src={logo} className='h-[16%] w-[16%] flex text-white ' alt="Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-left ml-5"> Progyan <br /> Educations </span>
           </a>
           <ul className="nav_menu">
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="about.html">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="course.html">Courses</a>
+              <Link to="/courses">Courses</Link>
             </li>
             <li>
-              <a href="contact.html">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
           <button id="open-menu-btn" onClick={handleMenuClick}>
@@ -64,7 +69,26 @@ const Header = () => {
           </button>
         </div>
       </nav>
-      </>
+      <header>
+        <div className="container header_container">
+          <div className="header-left ">
+            <h1>Grow your Skill to advance your career path</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            {/* <Link to="/courses" className="btn btn-primary"> */}
+            Get Started
+            {/* </Link> */}
+          </div>
+
+          <div className="header-right">
+            <div className="header-right-image">
+              <img src={headerImage} alt="Header Image" />
+            </div>
+          </div>
+        </div>
+      </header>
+    </>
   );
 };
 
