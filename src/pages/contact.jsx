@@ -3,7 +3,7 @@ import contactData from '../data/info/contactData.json';
 import '../styles/style.css';
 const Contact = () => {
     return (
-      <section className="contact bg-gray-100 py-16">
+      <section className="contact py-16">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Aside */}
           <aside className="contact_aside bg-primary text-white p-12 rounded-lg relative bottom-40">
