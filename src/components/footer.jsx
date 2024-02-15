@@ -14,9 +14,9 @@ const Footer = () => {
                     </a>
                 </div>
 
-                <div className="footer_2">
-                    <h4>Permalinks</h4>
-                    <ul className="permalinks">
+                <div className="footer_2 ml-20 justify-between items-start flex flex-col">
+                    <h4 className='font-bold text-2xl'>Permalinks</h4>
+                    <ul className="text-start permalinks">
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/courses">Courses</a></li>
@@ -24,42 +24,42 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className="footer_3">
-                    <h4>Important Links</h4>
-                    <ul className="privacy">
+                <div className="footer_3 text-start">
+                    <h4 className='font-bold text-2xl'>Important Links</h4>
+                    <ul className="privacy text-start">
                         <li><a href="privacy">Privacy Policy</a></li>
                         <li><a href="terms">Terms and Conditions</a></li>
                         <li><a href="refund">Refund Policy</a></li>
                     </ul>
                 </div>
 
-                <div className="footer_4">
-                    <h4 title=''>Contact Us</h4>
+                <div className="footer_4 text-start">
+                    <h4 className='font-bold text-2xl'>Contact Us</h4>
                     <ul className="privacy">
                         <li><a href="privacy">Privacy Policy</a></li>
                         <li><a href="terms">Terms and Conditions</a></li>
                         <li><a href="refund">Refund Policy</a></li>
                     </ul>
 
-                    <ul className="footer_social items-center flex justify-around">
+                    <ul className="footer_social items-center flex justify-start">
                         <li>
                             <a href="https://youtube.com/progyaneducations" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <FaYoutube size={30} />
+                                <FaYoutube size={20} />
                             </a>
                         </li>
                         <li>
                             <a href="https://instagram.com/progyaneducations" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <FaInstagram size={30} />
+                                <FaInstagram size={20} />
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/progyaneducations" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <FaTwitter size={30} />
+                                <FaTwitter size={20} />
                             </a>
                         </li>
                         <li>
                             <a href="https://linkedin.com/in/progyaneducations" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                                <FaLinkedin size={30} />
+                                <FaLinkedin size={20} />
                             </a>
                         </li>
                     </ul>
