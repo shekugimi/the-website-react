@@ -1,28 +1,20 @@
-// FAQs.js
 import React from 'react';
+import faqsData from '../data/info/faqsData.json';
 
 const FAQs = () => {
-  const faqs = [
-    { question: 'What is the purpose of this website?', answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { question: 'How can I contact support?', answer: 'You can contact our support team through the Contact Us page.' },
-    // Add more FAQs related to edutech company's products
-    { question: 'How do I access course materials?', answer: 'Once you enroll, you will get instant access to all course materials.' },
-    { question: 'Are there any prerequisites for the courses?', answer: 'Prerequisites vary by course. Please check the course details for specific requirements.' },
-    // Add more FAQs as needed
-  ];
-
   return (
     <section className="faqs">
-      <div className="container">
-        <h2 className="text-3xl font-bold mb-8">Frequently Asked Questions</h2>
-        <div className="faqs_list space-y-4">
-          {faqs.map((faq, index) => (
-            <div key={index} className="faq_item">
-              <h3 className="text-xl font-semibold">{faq.question}</h3>
-              <p className="text-gray-600">{faq.answer}</p>
+      <h2>Frequently Asked Questions</h2>
+      <div className="container faqs_container">
+        {faqsData.map((faq, index) => (
+          <article key={index} className="faq">
+            <div className="faq_icon"><i className="uil uil-plus"></i></div>
+            <div className="question_answer">
+              <h4>{faq.question}</h4>
+              <p>{faq.answer}</p>
             </div>
-          ))}
-        </div>
+          </article>
+        ))}
       </div>
     </section>
   );

@@ -1,23 +1,61 @@
 import React from 'react';
 import testimonialsData from '../data/info/testimonials.json'
+import '../styles/style.css';
 
 const Testimonials = () => {
   return (
-    <section className="testimonials">
-      <div className="container">
-        <h2 className="text-3xl font-bold mb-8">Testimonials</h2>
-        <div className="testimonials_list space-y-4">
-          {testimonialsData.map((testimonial, index) => (
-            <div key={index} className="testimonial_item">
-              <p className="text-gray-600">{testimonial.comment}</p>
-              <div className="testimonial_author mt-2">
-                <span className="font-semibold">{testimonial.name}</span>
-                <span className="text-gray-500"> - {testimonial.role}</span>
-              </div>
-            </div>
-          ))}
-        </div>
+    <section class="container testimonial_container swiper mySwiper">
+      <h2>Students' Testimonials</h2>
+      <div class="swiper-wrapper flex">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            {/* <img src="./images/avatar3.jpg" /> */}
+          </div>
+          <div class="testimonial_info">
+            <h5>Edem Christ</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            {/* <img src="./images/avatar4.jpg" /> */}
+          </div>
+          <div class="testimonial_info">
+            <h5>Hazia Bintu</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            {/* <img src="./images/avatar5.jpg" /> */}
+          </div>
+          <div class="testimonial_info">
+            <h5>Jane Doe</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonial_body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </article>
       </div>
+      <div class="swiper-pagination"></div>
     </section>
   );
 };

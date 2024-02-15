@@ -1,31 +1,215 @@
 [
-    {
-      "title": "Introduction to Computer Science",
-      "code": "CS101",
-      "description": "An introductory course covering the basics of computer science.",
-      "credits": 3,
-      "prerequisites": []
-    },
-    {
-      "title": "Data Structures and Algorithms",
-      "code": "CS201",
-      "description": "A course focusing on fundamental data structures and algorithms.",
-      "credits": 4,
-      "prerequisites": ["CS101"]
-    },
-    {
-      "title": "Database Management Systems",
-      "code": "CS301",
-      "description": "A course covering the design and implementation of database systems.",
-      "credits": 3,
-      "prerequisites": ["CS201"]
-    },
-    {
-      "title": "Web Development",
-      "code": "CS401",
-      "description": "A course on building web applications using modern web technologies.",
-      "credits": 4,
-      "prerequisites": ["CS201"]
-    }
-]
+  {
+    "title": "Full Stack Web Development",
+    "image": "./images/course1.jpg",
+    "description": "Master front-end and back-end technologies. Build dynamic and responsive web applications for today's digital environment.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Cloud Computing",
+    "image": "./images/cloud computing.jpg",
+    "description": "Understand cloud infrastructure, deployment, and management. Embrace scalable and efficient cloud solutions for modern applications.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Data Science",
+    "image": "./images/course3.jpg",
+    "description": "Explore data analysis, machine learning, and data visualization. Harness the power of data for insightful decision-making.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Cybersecurity",
+    "image": "./images/course4.jpg",
+    "description": "Learn to secure digital assets and protect against cyber threats. Build a secure and resilient digital infrastructure.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Internet of Things",
+    "image": "./images/course5.jpg",
+    "description": "Connect and control devices over the internet. Create smart and efficient systems for the digital age.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Blockchain",
+    "image": "./images/course6.jpg",
+    "description": "Understand blockchain technology and its applications. Build secure and transparent digital systems.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  }
+  ,
+  {
+    "title": "Artificial Intelligence",
+    "image": "./images/course7.jpg",
+    "description": "Explore machine learning, neural networks, and natural language processing. Create intelligent and autonomous systems.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Mobile App Development",
+    "image": "./images/course8.jpg",
+    "description": "Master mobile app development for iOS and Android. Create engaging and responsive mobile applications.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "DevOps",
+    "image": "./images/course9.jpg",
+    "description": "Understand software development and IT operations. Create efficient and automated software delivery pipelines.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "User Experience Design",
+    "image": "./images/course10.jpg",
+    "description": "Understand user needs and create engaging user experiences. Design intuitive and user-friendly digital products.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Big Data",
+    "image": "./images/course11.jpg",
+    "description": "Explore data storage, processing, and analysis. Create scalable and efficient big data solutions.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Quantum Computing",
+    "image": "./images/course12.jpg",
+    "description": "Understand quantum mechanics and quantum algorithms. Create powerful and efficient quantum computing systems.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  }
+  ,
+  {
+    "title": "Robotics",
+    "image": "./images/course13.jpg",
+    "description": "Explore robot design, control, and automation. Create intelligent and autonomous robotic systems.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Game Development",
+    "image": "./images/course14.jpg",
+    "description": "Master game design, development, and testing. Create engaging and immersive digital games.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Virtual Reality",
+    "image": "./images/course15.jpg",
+    "description": "Understand virtual reality technology and its applications. Create immersive and interactive virtual experiences.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Augmented Reality",
+    "image": "./images/course16.jpg",
+    "description": "Explore augmented reality technology and its applications. Create interactive and engaging augmented experiences.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Digital Marketing",
+    "image": "./images/course17.jpg",
+    "description": "Understand digital marketing strategies and tools. Create effective and engaging digital marketing campaigns.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "E-commerce",
+    "image": "./images/course18.jpg",
+    "description": "Master e-commerce platforms and strategies. Create efficient and engaging e-commerce solutions.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Social Media Management",
+    "image": "./images/course19.jpg",
+    "description": "Understand social media platforms and strategies. Create engaging and effective social media campaigns.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Content Creation",
+    "image": "./images/course20.jpg",
+    "description": "Master content creation and storytelling. Create engaging and effective digital content.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Graphic Design",
+    "image": "./images/course21.jpg",
+    "description": "Understand graphic design principles and tools. Create engaging and effective digital designs.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Video Production",
+    "image": "./images/course22.jpg",
+    "description": "Master video production and editing. Create engaging and effective digital videos.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Photography",
+    "image": "./images/course23.jpg",
+    "description": "Understand photography techniques and tools. Create engaging and effective digital photographs.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Audio Production",
+    "image": "./images/course24.jpg",
+    "description": "Master audio production and editing. Create engaging and effective digital audio content.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "3D Modeling",
+    "image": "./images/course25.jpg",
+    "description": "Understand 3D modeling and animation. Create engaging and effective 3D digital content.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "UI/UX Design",
+    "image": "./images/course26.jpg",
+    "description": "Master user interface and user experience design. Create engaging and effective digital designs.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Web Development",
+    "image": "./images/course27.jpg",
+    "description": "Understand web development principles and tools. Create engaging and effective digital websites.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Mobile App Design",
+    "image": "./images/course28.jpg",
+    "description": "Master mobile app design principles and tools. Create engaging and effective mobile app designs.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Digital Illustration",
+    "image": "./images/course29.jpg",
+    "description": "Understand digital illustration techniques and tools. Create engaging and effective digital illustrations.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  },
+  {
+    "title": "Digital Painting",
+    "image": "./images/course30.jpg",
+    "description": "Master digital painting techniques and tools. Create engaging and effective digital paintings.",
+    "registerLink": "course.html",
+    "brochureLink": "course.html"
+  }
 
+]
