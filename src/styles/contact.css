@@ -17,8 +17,8 @@
 	background: var(--color-primary);
 	padding: 3rem;
 	border-radius: 1rem;
-	position: relative;
-	bottom: 10rem;
+	/* position: relative; */
+	/* bottom: 10rem; */
 }
 
 .aside_image {
@@ -79,6 +79,8 @@
 
 .contact_form input[type= "text"] {
 	width: 50%;
+	color: var(--color-white);
+	background-color: #fff;
 }
 
 input, textarea {
