@@ -1,100 +1,111 @@
 import React from 'react';
 import contactData from '../data/info/contactData.json';
 import '../styles/style.css';
+import '../styles/contact.css'; // Add the CSS file for the contact page
+
 const Contact = () => {
-    return (
-      <section className="contact py-16">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Contact Aside */}
-          <aside className="contact_aside bg-primary text-white p-12 rounded-lg relative bottom-40">
-            <div className="aside_image mb-8">
-              <img src="./images/contact.svg" alt="Contact Us" />
-            </div>
-            <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
-            <p className="mb-6">
-              Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  return (
+    <section class="bg-blue-50 dark:bg-slate-800" id="contact">
+      <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-0">
+        <div class="mb-4">
+          <div class="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
+            <h2
+              class="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+              Get in Touch
+            </h2>
+            <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-slate-400">
+              We'd love to hear from you! Drop us a message and we'll get back to you as soon as possible.
             </p>
-            <ul className="contact_details">
-              <li className="flex items-center mb-4">
-                <i className="uil uil-phone-times"></i>
-                <h5 className="ml-2">{contactData.phone}</h5>
-              </li>
-              <li className="flex items-center mb-4">
-                <i className="uil uil-envelope"></i>
-                <h5 className="ml-2">{contactData.email}</h5>
-              </li>
-              <li className="flex items-center">
-                <i className="uil uil-location-point"></i>
-                <h5 className="ml-2">{contactData.location}</h5>
-              </li>
-            </ul>
-            <ul className="contact_socials flex gap-2 mt-8">
-              <li>
-                <a href="#" className="bg-white p-2 rounded-full">
-                  <i className="uil uil-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="bg-white p-2 rounded-full">
-                  <i className="uil uil-instagram-alt"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="bg-white p-2 rounded-full">
-                  <i className="uil uil-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" className="bg-white p-2 rounded-full">
-                  <i className="uil uil-linkedin-alt"></i>
-                </a>
-              </li>
-            </ul>
-          </aside>
-  
-          {/* Contact Form */}
-          <form
-            action="https://formspree.io/f/xlevlqaa"
-            method="POST"
-            className="contact_form bg-white p-8 rounded-lg"
-          >
-            <div className="form_name flex gap-4 mb-6">
-              <input
-                type="text"
-                name="First Name"
-                placeholder="First Name"
-                required
-                className="w-1/2 p-2 border border-gray-300 rounded-md"
-              />
-              <input
-                type="text"
-                name="Last Name"
-                placeholder="Last Name"
-                required
-                className="w-1/2 p-2 border border-gray-300 rounded-md"
-              />
-            </div>
-            <input
-              type="email"
-              name="Email Address"
-              placeholder="Your Email Address"
-              required
-              className="w-full p-2 border border-gray-300 rounded-md mb-6"
-            />
-            <textarea
-              name="Message"
-              rows="7"
-              placeholder="Message"
-              required
-              className="w-full p-2 border border-gray-300 rounded-md mb-6"
-            ></textarea>
-            <button type="submit" className="btn btn-primary">
-              Send Message
-            </button>
-          </form>
+          </div>
         </div>
-      </section>
-    );
-  };
-  
-  export default Contact;
+        <div class="flex items-stretch justify-center">
+          <div class="grid md:grid-cols-2">
+            <div class="h-full pr-6">
+              <ul class="mb-6 text-start p-10 md:mb-0">
+              <p class="mt-0 mb-12 ml-4 text-lg text-gray-600 dark:text-slate-400">
+                Feel free to reach out to us for any inquiries or if you have any questions. Our team is here to assist you.
+              </p>
+                <li class="flex text-start justify-between">
+                  {/* <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="h-6 w-6">
+                      <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                      <path
+                        d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z">
+                      </path>
+                    </svg>
+                  </div> */}
+                  <div class="ml-4 mb-4">
+                    <h3 class="mb-2  text-lg font-medium leading-6 text-gray-900 dark:text-white">Our Address
+                    </h3>
+                    <p class="text-gray-600 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
+                    <p class="text-gray-600 dark:text-slate-400">New York, USA</p>
+                  </div>
+                </li>
+                <li class="flex text-start justify-between">
+                  {/* <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="h-6 w-6">
+                      <path
+                        d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
+                      </path>
+                      <path d="M15 7a2 2 0 0 1 2 2"></path>
+                      <path d="M15 3a6 6 0 0 1 6 6"></path>
+                    </svg>
+                  </div> */}
+                  <div class="ml-4 mb-4">
+                    <h3 class="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">Contact
+                    </h3>
+                    <p class="text-gray-600 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
+                    <p class="text-gray-600 dark:text-slate-400">Email: info@example.com</p>
+                  </div>
+                </li>
+                <li class="flex text-start justify-between">
+                  {/* <div class="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                      fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" class="h-6 w-6">
+                      <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path>
+                      <path d="M12 7v5l3 3"></path>
+                    </svg>
+                  </div> */}
+                  <div class="ml-4 mb-4">
+                    <h3 class="mb-2  text-lg font-medium leading-6 text-gray-900 dark:text-white">Working
+                      Hours</h3>
+                    <p class="text-gray-600 dark:text-slate-400">Monday - Friday: 08:00 AM - 05:00 PM</p>
+                    <p class="text-gray-600 dark:text-slate-400">Saturday & Sunday: Closed</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="card h-fit max-w-6xl p-5 md:p-12" id="form">
+              <h2 class="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
+              <form id="contactForm">
+                <div class="mb-6">
+                  <div class="mx-0 mb-1 sm:mb-4">
+                    <div class="mx-0 mb-1 sm:mb-4 ">
+                      <label for="name" class="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Your name" class="mb-2 bg-gray-600  w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name"/>
+                    </div>
+                    <div class="mx-0 mb-1 sm:mb-4">
+                      <label for="email" class="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Your email address" class="mb-2 bg-gray-600 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email"/>
+                    </div>
+                  </div>
+                  <div class="mx-0 mb-1 sm:mb-4">
+                    <label for="textarea" class="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." class="mb-2 bg-gray-600 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="w-full bg-blue-800 text-white px-6 py-3 font-xl rounded-md sm:mb-0">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

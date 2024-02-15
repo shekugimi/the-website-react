@@ -11,11 +11,15 @@ import Footer from './components/footer';
 import Testimonials from './page/testimonial'; // Corrected 'page' to 'pages'
 import FAQs from './pages/faqs';
 import Achievements from './pages/achievements';
+import TermsAndConditions from './page/termsandconditions';
+import PrivacyPolicy from './page/privacypolicy';
+import RefundPolicy from './page/refundpolicy';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-        <Header />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -24,6 +28,9 @@ function App() {
           <Route path="/faqs" element={<FAQs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/achievements" element={<Achievements />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/refund" element={<RefundPolicy />} />
           {/* <Route path="*" element={<Home />} /> */}
         </Routes>
         <Footer />
