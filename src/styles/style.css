@@ -31,7 +31,7 @@
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	line-height: 1.7;
 	color: var(--color-white);
 	background: var(--color-bg);
@@ -103,7 +103,6 @@ img {
 }
 
 /*======================== NAVBAR ====================*/
-
 nav {
 	background: transparent;
 	width: 100vw;
@@ -111,13 +110,13 @@ nav {
 	position: fixed;
 	top: 0;
 	z-index: 11;
+	/* transition: background-color 0.3s, box-shadow 0.3s, height 0.3s; */
 }
-
-/*change Navbar style on scroll using javascript*/
 
 .window-scroll {
 	background: var(--color-primary);
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+	/* height: 4rem; Adjust the height during scroll */
 }
 
 .nav_container {
@@ -125,47 +124,32 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
-
-nav button {
-	display: none;
+	/* transition: height 0.3s; */
 }
 
 .nav_menu {
 	display: flex;
 	align-items: center;
-	grid-gap: 4rem;
+	grid-gap: 2rem; /* Adjust the gap between menu items */
 }
 
 .nav_menu a {
-	font-size: 0.9rem;
+	font-size: 1rem; /* Adjust the font size */
 	transition: var(--transition);
 }
 
 .nav_menu a:hover {
-	color: var(--color-bg2);
+	color: var(--color-warning);
+	font-size: 1.1rem; /* Adjust the font size on hover */
 }
 
-/*======================== HEADER ====================*/
-
-header {
-	position: relative;
-	top: 5rem;
-	overflow: hidden;
-	height: 70vh;
-	margin-bottom: 5rem;
+/* Add the following lines to smoothly transition the text size during scroll */
+.window-scroll .nav_menu a {
+	/* font-size: 0.9rem; */
 }
 
-.header_container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	align-items: center;
-	grid-gap: 5rem;
-	height: 100%;
-}
-
-.header-left p {
-	margin: 1rem 0 2.4rem;
+.window-scroll .nav_menu a:hover {
+	font-size: 1rem;
 }
 
 /*======================== CATEGORIES ====================*/
@@ -324,9 +308,29 @@ header {
 	margin-bottom: 5rem;
 	position: relative;
 }
+.testimonial_container h2{
+	text-align: center;
+	margin-bottom: 3rem;
+	font-size: 2.8rem;
+	font-weight: 500;
+}
+
+.courses h2{
+	text-align: center;
+	margin-bottom: 3rem;
+	font-size: 2.8rem;
+	font-weight: 500;
+
+}
 
 .testimonial {
 	padding-top: 2rem;
+}
+.testimonials_headline{
+	text-align: center;
+	margin-bottom: 5rem;
+	font-size: 2.8rem;
+	font-weight: 700;
 }
 
 .avatar {
@@ -397,6 +401,10 @@ footer ul li {
 
 footer ul li a:hover {
 	text-decoration: underline;
+}
+
+.transition {
+	transition: var(--transition);
 }
 
 .footer_social {
@@ -640,3 +648,5 @@ footer ul li a:hover {
 		justify-content: center;
 	}
 }
+
+  

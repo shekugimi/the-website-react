@@ -15,6 +15,7 @@ import TermsAndConditions from './page/termsandconditions';
 import PrivacyPolicy from './page/privacypolicy';
 import RefundPolicy from './page/refundpolicy';
 import Navbar from './components/Navbar';
+import RegistrationForm from './page/registrationForm';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/terms" element={<TermsAndConditions />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/refund" element={<RefundPolicy />} />
+          <Route path="/register" element={<RegistrationForm/>} />
           {/* <Route path="*" element={<Home />} /> */}
         </Routes>
         <Footer />

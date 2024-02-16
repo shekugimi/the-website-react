@@ -1,35 +1,45 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import coursesData from '../data/info/coursesData.json';
 import '../styles/style.css';
 
 const Courses = () => {
-  const [visibleCourses, setVisibleCourses] = useState(4); // State to manage the number of visible courses
+  const [visibleCourses, setVisibleCourses] = useState(4);
 
   const handleViewAllCourses = () => {
-    // Function to handle "View All Courses" button click
-    setVisibleCourses(coursesData.length); // Set visibleCourses to the total number of courses
+    setVisibleCourses(coursesData.length);
   };
 
   return (
-    <section className="courses">
-      <h2>Our Popular Courses</h2>
-      <div className="container courses_container">
+    <section className="p-3 md:p-auto mb-10">
+      <div className='mb-4 p-4'>
+        <span className='mb-4 bg- p-10 text-xl md:text-4xl font-extrabold'>Our Popular Courses</span>
+      </div>
+      <div className=" rounded rounded-3xl pb-2 flex">
         {coursesData.slice(0, visibleCourses).map((course, index) => (
-          <article key={index} className="course">
-            <div className="course_image">
-              <img src={course.image} alt={course.title} />
+          <article key={index} className=" bg-[#424890] m-2 p-2 rounded rounded-2xl">
+            <div className="course_image ">
+              {/* Use the require function to dynamically load images */}
+              <img src={require(`../data/images/${course.image}`)} alt={course.title} className='rounded rounded-3xl' />
             </div>
-            <div className="course_info">
+            <div className=' p-5 font-semibold'>
               <h4>{course.title}</h4>
+            </div>
+            <div className=" p-5 md:course_info ">
               <p>{course.description}</p>
-              <a href={course.registerLink} className="btn btn-primary">Register</a>
-              <a href={course.brochureLink} className="btn btn-primary">Brochure</a>
+            </div>
+            <div className='m-5 bottom-0 flex flex-row items-center justify-between gap-5'>
+              <Link to='/register' className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Register
+              </Link>
+              <a href={course.brochureLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Brochure
+              </a>
             </div>
           </article>
         ))}
       </div>
-      {visibleCourses < coursesData.length && ( // Show "View All Courses" button conditionally
+      {visibleCourses < coursesData.length && (
         <div className="view-all-button-container">
           <Link to="/courses" className="btn btn-primary" onClick={handleViewAllCourses}>
             View All Courses
