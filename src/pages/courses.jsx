@@ -1,23 +1,40 @@
-import React from 'react';
-import Course from './../page/course';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import coursesData from '../data/info/coursesData.json';
 import '../styles/style.css';
 
 const Courses = () => {
+  const [visibleCourses, setVisibleCourses] = useState(4);
+
+  const handleViewAllCourses = () => {
+    setVisibleCourses(coursesData.length);
+  };
+
   return (
-    <section className="courses">
-      <h2>All Programs</h2>
-      <div className="container courses_container">
+    <section className="p-3 md:p-auto my-16">
+      <div className='mb-4 p-4'>
+        <span className='mb-4 bg- p-10 text-xl md:text-4xl font-extrabold'>Our Popular Courses</span>
+      </div>
+      <div className=" rounded rounded-3xl pb-2 max-w-screen flex flex-wrap items-center justify-center">
         {coursesData.map((course, index) => (
-          <article key={index} className="course">
+          <article key={index} className=" bg-[#424890] m-2 p-2 max-w-[30%] hover:bg-blue-500 hover:cursor-pointer transition rounded rounded-2xl">
             <div className="course_image">
-              <img src={course.image} alt={course.title} />
+              {/* Use the require function to dynamically load images */}
+              <img src={require(`../data/images/${course.image}`)} alt={course.title} className=' rounded rounded-3xl' />
             </div>
-            <div className="course_info">
+            <div className=' p-5 font-semibold'>
               <h4>{course.title}</h4>
+            </div>
+            <div className=" p-5 md:course_info ">
               <p>{course.description}</p>
-              <a href={course.registerLink} className="btn btn-primary">Register</a>
-              <a href={course.brochureLink} className="btn btn-primary">Brochure</a>
+            </div>
+            <div className='m-5 flex flex-row items-center justify-between '>
+              <Link to='/register' className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Register
+              </Link>
+              <a href={course.brochureLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                Brochure
+              </a>
             </div>
           </article>
         ))}
