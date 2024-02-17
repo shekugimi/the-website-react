@@ -1,175 +1,68 @@
-	/*====================== ACHIVEMENTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-.about_achivements {
-	margin-top: 3rem;
+:root {
+	--font-family: 'Manrope', sans-serif;
+
+	--gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+	--gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+
+	--color-bg: #040C18;
+	--color-footer: #031B34;
+	--color-blog: #042c54;
+	--color-text: #81AFDD;
+	--color-subtext: #FF8A71;
 }
 
-.about_achivements-container {
-	display: grid;
-	grid-template-columns: 40% 60%;
-	grid-gap: 5rem;
+.bg-theme-neutral-600 {
+	--tw-bg-opacity: 1;
+	background-color: rgb(94 91 113/0.2);
 }
 
-.about_achivements-right > p {
-	margin: 1.6rem 0 2.5rem;
-}
-
-.achivements_cards {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 1.5rem;
-}
-
-.achivement_cards {
-	background: var(--color-bg1);
-	padding: 1.6rem;
-	border-radius: 1rem;
-	text-align: center;
-	transition: var(--transition);
-} 
-
-.achivement_cards:hover {
-	background: var(--color-bg2);
-	box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
-	cursor: pointer;
-}
-
-.achivement-icon {
-	background: var(--color-danger);
-	padding: 0.6rem;
-	border-radius: 1rem;
-	display: inline-block;
-	font-size: 2rem;
-	margin-bottom: 2rem;
-}
-
-.achivement_cards:nth-child(2) .achivement-icon {
-	background: var(--color-success);
-}
-
-.achivement_cards:nth-child(3) .achivement-icon {
-	background: var(--color-primary);
-}
-
-.achivement_cards p {
-	margin-top: 1rem;
-}
-
-.team {
-	background: var(--color-bg1);
-	box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
-}
-
-.team_container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 2rem;
-}
-
-.team_member {
-	background: var(--color-bg2);
-	padding: 2rem;
-	border: 1px solid transparent;
-	transition: var(--transition);
-	position: relative;
+.image_container {
+	box-sizing: border-box;
+	display: block;
 	overflow: hidden;
-}
-
-.team_member:hover {
-	background: transparent;
-	border-color: var(--color-primary);
-}
-
-.team_member_image img {
-	filter: saturate(0);
-} 
-
-.team_member_image:hover img {
-	filter: saturate(1);
-}
-
-.team_member_info  *{
-	text-align: center;
-	margin-top: 1.4rem;
-}
-
-.team_member_info p {
-	color: var(--color-light);
-}
-
-.team_member_socials {
+	width: initial;
+	height: initial;
+	background: none;
+	opacity: 1;
+	border: 0;
+	margin: 0;
+	padding: 0;
 	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	right: -100%;
-	display: flex;
-	flex-direction: column;
-	background: var(--color-primary);
-	border-radius: 1rem 0 0 1rem;
-	box-shadow: -2rem 0 2rem rgba(0, 0, 0, 0.3);
-	transition: var(--transition);
-}
-
-.team_member:hover 
-.team_member_socials {
+	top: 0;
+	left: 0;
+	bottom: 0;
 	right: 0;
 }
 
-.team_member_socials a {
-	padding: 1rem;
+.image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 0;
+	border: none;
+	margin: auto;
+	display: block;
+	width: 0;
+	height: 0;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	object-position: center;
 }
 
-
-	/*====================== MEDIA QUERIES (FOR TABLETS) ====================*/
-
-@media screen and (max-width: 1024px) {
-
-	.about_achivements {
-		margin-top: 2rem;
-	}
-
-	.about_achivements-container {
-		grid-template-columns: 1fr;
-		grid-gap: 4rem;
-	}
-
-	.about_achivements-left {
-		width: 80%;
-		margin: 0 auto;
-	}
-
-	.team_container {
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 1.5rem;
-	}
-
-	.team_member {
-		padding: 1rem;
-	}
-}
-
-
-
-
-/*====================== MEDIA QUERIES (FOR MOBILES) ====================*/
-
-@media screen and (max-width: 600px) {
-
-	.achivements_cards {
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 0.7rem;
-	}
-
-	.team_container {
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 0.7rem;
-	}
-
-	.team_member {
-		padding: 0;
-	}
-
-	.team_member p {
-		margin-bottom: 1.5rem;
-	}
+.gradient__text {
+	background: var(--gradient-text);
+	background-clip: text;
+	font-family: var(--font-family);
+	font-size: 50px;
+	font-weight: 700;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

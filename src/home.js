@@ -18,7 +18,7 @@ function Home() {
       <Testimonials />
       <FAQs />
       {/* <About /> */}
-      {/* <Partners /> */}
+      <Partners />
 
       <FeeStructure />
       <Contact />
