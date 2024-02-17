@@ -23,9 +23,9 @@
 	--color-bg1: #2e3267;
 	--color-bg2: #424890;
 
-	--container-width-lg:80%;
-	--container-width-md:90%;
-	--container-width-sm:94%;
+	--container-width-lg: 80%;
+	--container-width-md: 90%;
+	--container-width-sm: 94%;
 
 	--transition: all 400ms ease;
 }
@@ -51,7 +51,11 @@ section h2 {
 	margin-bottom: 4rem;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	line-height: 1.2;
 }
 
@@ -92,7 +96,8 @@ img {
 }
 
 .btn:hover {
-	background: transparent;;
+	background: transparent;
+	;
 	color: var(--color-white);
 	border-color: var(--color-white);
 }
@@ -130,17 +135,20 @@ nav {
 .nav_menu {
 	display: flex;
 	align-items: center;
-	grid-gap: 2rem; /* Adjust the gap between menu items */
+	grid-gap: 2rem;
+	/* Adjust the gap between menu items */
 }
 
 .nav_menu a {
-	font-size: 1rem; /* Adjust the font size */
+	font-size: 1rem;
+	/* Adjust the font size */
 	transition: var(--transition);
 }
 
 .nav_menu a:hover {
 	color: var(--color-warning);
-	font-size: 1.1rem; /* Adjust the font size on hover */
+	font-size: 1.1rem;
+	/* Adjust the font size on hover */
 }
 
 /* Add the following lines to smoothly transition the text size during scroll */
@@ -188,7 +196,7 @@ nav {
 	padding: 2rem;
 	border-radius: 2rem;
 	transition: var(--transition);
-} 
+}
 
 .category:hover {
 	box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
@@ -279,7 +287,7 @@ nav {
 	align-items: center;
 	height: fit-content;
 	background: var(--color-primary);
-	cursor: pointer; 
+	cursor: pointer;
 }
 
 .faq h4 {
@@ -297,7 +305,8 @@ nav {
 	display: none;
 }
 
-.faq.open p {
+.faq.active p {
+	/* Use 'active' class instead of 'open' for consistency with React code */
 	display: block;
 }
 
@@ -308,14 +317,15 @@ nav {
 	margin-bottom: 5rem;
 	position: relative;
 }
-.testimonial_container h2{
+
+.testimonial_container h2 {
 	text-align: center;
 	margin-bottom: 3rem;
 	font-size: 2.8rem;
 	font-weight: 500;
 }
 
-.courses h2{
+.courses h2 {
 	text-align: center;
 	margin-bottom: 3rem;
 	font-size: 2.8rem;
@@ -326,7 +336,8 @@ nav {
 .testimonial {
 	padding-top: 2rem;
 }
-.testimonials_headline{
+
+.testimonials_headline {
 	text-align: center;
 	margin-bottom: 5rem;
 	font-size: 2.8rem;
@@ -339,7 +350,7 @@ nav {
 	overflow: hidden;
 	border-radius: 50%;
 	margin: 0 auto 1rem;
-	border: 1rem solid var(--color-bg1); 
+	border: 1rem solid var(--color-bg1);
 }
 
 .testimonial_info {
@@ -356,13 +367,11 @@ nav {
 .testimonial_body:before {
 	content: "";
 	display: block;
-	background: linear-gradient(
-		135deg,
-		transparent, 
-		var(--color-primary), 
-		var(--color-primary), 
-		var(--color-primary)
-	);
+	background: linear-gradient(135deg,
+			transparent,
+			var(--color-primary),
+			var(--color-primary),
+			var(--color-primary));
 	width: 3rem;
 	height: 3rem;
 	position: absolute;
@@ -373,21 +382,21 @@ nav {
 
 
 /*======================== FOOTER SECTION ====================*/
- 
 
- footer {
- 	background: var(--color-bg1);
- 	padding-top: 4rem;
- 	font-size: 0.9rem;
- }
 
- .footer_container {
- 	display: grid;
- 	grid-template-columns: repeat(4, 1fr);
- 	grid-gap: 5rem;
- }
+footer {
+	background: var(--color-bg1);
+	padding-top: 4rem;
+	font-size: 0.9rem;
+}
 
-.footer_container > div h4 {
+.footer_container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5rem;
+}
+
+.footer_container>div h4 {
 	margin-bottom: 1.2rem;
 }
 
@@ -445,7 +454,7 @@ footer ul li a:hover {
 		font-size: 1.2rem;
 	}
 
-	
+
 	/*====================== NAVBAR ====================*/
 
 	nav button {
@@ -474,7 +483,7 @@ footer ul li a:hover {
 	.nav_menu li {
 		width: 100%;
 		height: 5.8rem;
-		animation: animateNAvItems 400ms linear forwards; 
+		animation: animateNAvItems 400ms linear forwards;
 		transform-origin: top right;
 		opacity: 0;
 	}
@@ -508,7 +517,7 @@ footer ul li a:hover {
 		width: 100%;
 		height: 100%;
 		display: grid;
-		place-items:center;
+		place-items: center;
 	}
 
 	.nav_menu li a:hover {
@@ -568,7 +577,7 @@ footer ul li a:hover {
 	.footer_container {
 		grid-template-columns: 1fr 1fr;
 	}
-	
+
 }
 
 
@@ -648,5 +657,3 @@ footer ul li a:hover {
 		justify-content: center;
 	}
 }
-
-  
