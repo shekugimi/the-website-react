@@ -7,10 +7,10 @@ import Avatar3 from "../data/images/avatar1.jpg";
 
 const Testimonials = () => {
   return (
-    <section className="container testimonial_container swiper mySwiper">
-      <div className="heading h-[10%] flex items-center justify-center p-20">
+    <section className="container testimonial_container swiper mySwiper p-0">
+      <div className="heading h-[10%] flex items-center justify-center p-8">
         <span className="max-w-2xl mb-4 text-xl md:text-4xl font-extrabold">
-          Fee Structure
+          What our Student Says
         </span>
       </div>
       <div className="swiper-wrapper flex gap-10 flex-col md:flex-row">

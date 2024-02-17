@@ -6,13 +6,13 @@ import headerImage from "../data/images/ai.png";
 
 const Header = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-gray-900">
       <div className="grid md:flex-row md:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className=" md:hidden lg:mt-0 lg:col-span-5 ">
           <img src={headerImage} alt="mockup" />
         </div>
         <div className="mr-auto text-start place-self-center lg:col-span-7">
-          <span className="max-w-2xl text-xl md:text-4xl font-extrabold tracking-tight leading-none md:text-3xl lg:text-5xl mb-10 dark:text-white">
+          <span className="max-w-2xl text-xl md:text-4xl font-extrabold tracking-tight leading-none lg:text-5xl mb-10 dark:text-white">
             Education Reimagined for the Modern Era
           </span>
           <p className="max-w-2xl my-6 font-light text-gray-500 lg:mb-8 text-sm md:text-lg dark:text-gray-400">
@@ -41,7 +41,7 @@ const Header = () => {
           </a>
           <a
             href="#"
-            className="inline-flex text-start items-center justify-center px-5 py-3 font-medium text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="inline-flex text-start items-center justify-center px-5 py-3 font-medium hover:text-gray-950 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-gray-500 "
           >
             Speak to Sales
           </a>
