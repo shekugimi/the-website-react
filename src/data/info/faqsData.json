@@ -1,19 +1,18 @@
 [
-    {
-      "question": "What is the purpose of this website?",
-      "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "question": "How can I contact support?",
-      "answer": "You can contact our support team through the Contact Us page."
-    },
-    {
-      "question": "How do I access course materials?",
-      "answer": "Once you enroll, you will get instant access to all course materials."
-    },
-    {
-      "question": "Are there any prerequisites for the courses?",
-      "answer": "Prerequisites vary by course. Please check the course details for specific requirements."
-    }
-  ]
-  
+  {
+    "question": "What is PROGYAN EDUCATIONS?",
+    "answer": "Our website is dedicated to offering state-of-the-art learning experiences and comprehensive training programs focused on various AI tools. We aim to empower individuals with the latest knowledge and skills in the rapidly evolving field of artificial intelligence."
+  },
+  {
+    "question": "How can I contact support?",
+    "answer": "For any assistance or queries, you can easily reach our support team through the 'Contact Us' page. Whether you prefer filling out a form or finding contact details, our dedicated support staff is ready to provide prompt and helpful responses to all your inquiries."
+  },
+  {
+    "question": "How do I access course materials?",
+    "answer": "Upon enrollment, you gain immediate and unrestricted access to a wealth of course materials. Dive into lectures, resources, and practical exercises at your convenience, allowing for a flexible and personalized learning experience tailored to your schedule."
+  },
+  {
+    "question": "Are there any prerequisites for the courses?",
+    "answer": "Prerequisites vary by course. To ensure you meet the requirements, please refer to the detailed information provided in the brochure. This transparency allows you to assess your readiness and choose courses that align with your current skill level and learning goals."
+  }
+]

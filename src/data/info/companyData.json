@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Company 1",
+        "image": "meta-white.webp"
+    },
+    {
+        "name": "Company 2",
+        "image": "aws-white.webp"
+    },
+    {
+        "name": "Company 3",
+        "image": "apple-white.webp"
+    },
+    {
+        "name": "Company 4",
+        "image": "bookingcom-white.webp"
+    },
+    {
+        "name": "Company 5",
+        "image": "docker-white.webp"
+    },
+    {
+        "name": "Company 6",
+        "image": "jpmorgan-white.webp"
+    },
+    {
+        "name": "Company 7",
+        "image": "salesforce-white.webp"
+    },
+    {
+        "name": "Company 8",
+        "image": "google-white.webp"
+    },
+    {
+        "name": "Company 9",
+        "image": "grab-white.webp"
+    },
+    {
+        "name": "Company 10",
+        "image": "adobe-white.webp"
+    },
+    {
+        "name": "Company 11",
+        "image": "visa-white.webp"
+    },
+    {
+        "name": "Company 12",
+        "image": "vercel-white.webp"
+    }
+]
