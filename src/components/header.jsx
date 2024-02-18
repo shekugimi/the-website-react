@@ -1,8 +1,12 @@
 // Header.js
+"use client";
 import React from "react";
 import "../styles/style.css";
+import { motion } from "framer-motion";
+import { cn } from "../utils/cn";
 
 import headerImage from "../data/images/ai.png";
+import BackgroundBeams from "./background-beams";
 
 const Header = () => {
   return (
@@ -50,6 +54,7 @@ const Header = () => {
           <img src={headerImage} alt="mockup" />
         </div>
       </div>
+      <BackgroundBeams />
     </section>
   );
 };
