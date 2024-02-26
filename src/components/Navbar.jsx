@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full shadow-md py-3 z-50 transition-all duration-300">
       <div className="container flex justify-between items-center mx-auto h-full ">
-        <Link to="/" className="flex items-center text-start gap-0 line-h-0">
+        <Link to="/" className="window-scroll flex items-center text-start gap-0 line-h-0">
           <img src={logo} alt="Logo" className="logo-scroll w-[60px] flex text-white logo-scroll transition-all duration-300"
  />
           <span className="text-lg font-bold">Progyan <br/> Educations</span>
