@@ -14,7 +14,7 @@
 	--color-primary: #636cff;
 	--color-success: #00bf8e;
 	--color-warning: #f7c94b;
-	--color-danger: #f75842;
+	--color-danger: #ff5d06;
 	--color-dander-varient: rgba(247, 88, 66, 0.4);
 	--color-white: #fff;
 	--color-light: rgba(255, 255, 255, 0.7);
@@ -119,9 +119,11 @@ nav {
 }
 
 .window-scroll {
-	background: var(--color-primary);
-	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-	/* height: 4rem; Adjust the height during scroll */
+	/* height: 4rem; */
+	background: rgba(10, 8, 103, 0.6);
+	box-shadow: 0 8px 32px 0 rgba(48, 50, 119, 0.37);
+	backdrop-filter: blur(4.5px);
+	-webkit-backdrop-filter: blur(2.5px);
 }
 
 .nav_container {

@@ -17,7 +17,7 @@ const Courses = () => {
           Our Popular Courses
         </span>
       </div>
-      <div className="rounded-3xl pb-2 flex">
+      <div className="rounded-3xl pb-2 flex flex-col md:flex-row">
         {coursesData.slice(0, visibleCourses).map((course, index) => (
           <article key={index} className=" bg-[#424890] m-2 p-2 rounded-2xl">
             <div className="course_image ">
