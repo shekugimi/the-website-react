@@ -19,13 +19,12 @@ const Testimonials = () => {
             <img src={Avatar} />
           </div>
           <div className="testimonial_info">
-            <h5>Edem Christ</h5>
-            <small>Student</small>
+            <h5>Shivam Patidar</h5>
+            <small>Data Science <br/> (Lovely prfessional University)</small>
           </div>
           <div className="testimonial_body bg-black ml-4">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              It is a unique and better way to learn my domain Data Science with ChatGPT 4.0, Hugging Face, Datacamp Workspacee AI all at once.
             </p>
           </div>
         </article>
@@ -34,13 +33,12 @@ const Testimonials = () => {
             <img src={Avatar2} />
           </div>
           <div className="testimonial_info">
-            <h5>Jane Doe</h5>
-            <small>Student</small>
+            <h5>Md. Danish Raza </h5>
+            <small>Data Science <br/> (Lovely prfessional University)</small>
           </div>
           <div className="testimonial_body bg-black">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              I have learned a lot from this platform. It's a great platform to learn and enhance your skills.
             </p>
           </div>
         </article>

@@ -5,7 +5,7 @@ import "../styles/contact.css"; // Add the CSS file for the contact page
 
 const Contact = () => {
   return (
-    <section className="bg-blue-50 dark:bg-slate-800" id="contact">
+    <section className="" id="contact">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-0">
         <div className="mb-4">
           <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
@@ -39,13 +39,13 @@ const Contact = () => {
                   </div> */}
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2  text-lg font-medium leading-6 text-gray-900 dark:text-white">
-                      Our Address
+                      Our Office Address
                     </h3>
                     <p className="text-gray-600 dark:text-slate-400">
-                      1230 Maecenas Street Donec Road
+                      Progyan Educations, Rama Mandi , Jalandhar
                     </p>
                     <p className="text-gray-600 dark:text-slate-400">
-                      New York, USA
+                      Punjab, India
                     </p>
                   </div>
                 </li>
@@ -66,10 +66,10 @@ const Contact = () => {
                       Contact
                     </h3>
                     <p className="text-gray-600 dark:text-slate-400">
-                      Mobile: +1 (123) 456-7890
+                      Mobile: +91 7649866386
                     </p>
                     <p className="text-gray-600 dark:text-slate-400">
-                      Email: info@example.com
+                      Email: info@progyaneducations.live
                     </p>
                   </div>
                 </li>

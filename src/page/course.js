@@ -17,9 +17,9 @@ const Courses = () => {
           Our Popular Courses
         </span>
       </div>
-      <div className="rounded-3xl pb-2 flex flex-col md:flex-row">
+      <div className="rounded-3xl pb-2 flex dlex-col md:flex-row max-w-screen overflow-x-scroll scrollbar-none">
         {coursesData.slice(0, visibleCourses).map((course, index) => (
-          <article key={index} className=" bg-[#424890] m-2 p-2 rounded-2xl">
+          <article key={index} className="bg-[#424890] m-2 p-2 rounded-2xl">
             <div className="course_image ">
               {/* Use the require function to dynamically load images */}
               <img
@@ -36,12 +36,13 @@ const Courses = () => {
             </div>
             <div className="m-5 bottom-0 flex flex-row items-center justify-between gap-5">
               <Link
-                to="/register"
+                to={{
+                  pathname: `/course-details/${course.id}`, // Assuming course.id exists in coursesData
+                  state: { course }, // Pass the course object as state
+                }}
                 className="btn btn-primary"
-                target="_blank"
-                rel="noopener noreferrer"
               >
-                Register
+                View Details
               </Link>
               <a
                 href={course.brochureLink}

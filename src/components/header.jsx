@@ -2,16 +2,14 @@
 "use client";
 import React from "react";
 import "../styles/style.css";
-import { motion } from "framer-motion";
-import { cn } from "../utils/cn";
 
 import headerImage from "../data/images/ai.png";
-import BackgroundBeams from "./background-beams";
+// import BackgroundBeams from "./background-beams";
 
 const Header = () => {
   return (
     <section className="bg-gray-900">
-      <div className="grid md:flex-row md:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div className="grid md:flex-row md:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 z-9">
         <div className=" md:hidden lg:mt-0 lg:col-span-5 ">
           <img src={headerImage} alt="mockup" />
         </div>
@@ -27,7 +25,7 @@ const Header = () => {
           </p>
           <a
             href="/courses"
-            className="button_primary inline-flex items-center hover:bg-gray-700 justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+            className="button_primary border border-2 border-white rounded rounded-2xl inline-flex items-center hover:bg-gray-700 justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
             Get started
             <svg
@@ -45,7 +43,7 @@ const Header = () => {
           </a>
           <a
             href="#"
-            className="inline-flex text-start items-center justify-center px-5 py-3 font-medium hover:text-gray-950 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 text-gray-500 "
+            className="inline-flex bg-gray-300 text-black hover:bg-gray-400 border border-2 border-white rounded rounded-2xl text-start items-center justify-center px-5 py-3 font-medium hover:text-gray-950 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100  "
           >
             Speak to Sales
           </a>
@@ -54,7 +52,7 @@ const Header = () => {
           <img src={headerImage} alt="mockup" />
         </div>
       </div>
-      <BackgroundBeams />
+      {/* <BackgroundBeams /> */}
     </section>
   );
 };

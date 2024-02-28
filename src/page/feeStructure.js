@@ -17,7 +17,7 @@ const coursesList = [
     description:
       "Self-paced courses are designed to be completed at your own pace, at any time that is convenient for you. You can work through the course material at your own speed, and you can complete the course in as little or as much time as you need.",
     image: selfPaced,
-    link: "/courses/python",
+    link: "/courses",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const coursesList = [
     description:
       "Mentor-led courses are designed to provide you with a more structured learning experience. You will have access to a mentor who will guide you through the course material and provide you with feedback and support.",
     image: mentorLed,
-    link: "/courses/java",
+    link: "/courses",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const coursesList = [
     description:
       "Advanced courses are designed to provide you with a more in-depth understanding of a particular topic. These courses are typically more challenging and require a higher level of knowledge and experience.",
     image: Advanced,
-    link: "/courses/cpp",
+    link: "/courses",
   },
 ];
 
@@ -69,7 +69,7 @@ const FeesStructure = () => {
                 to={course.link}
                 className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
-                Read more
+                Read More
                 <svg
                   className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                   aria-hidden="true"
