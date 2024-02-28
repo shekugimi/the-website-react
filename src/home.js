@@ -17,9 +17,8 @@ function Home() {
       <Course />
       <Testimonials />
       <FAQs />
-      {/* <About /> */}
+      <About />
       <Partners />
-
       <FeeStructure />
       <Contact />
       {/* <Achievements/> */}

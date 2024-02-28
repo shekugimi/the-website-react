@@ -11,7 +11,7 @@ const Courses = () => {
   };
 
   return (
-    <section className="p-3 md:p-auto my-16">
+    <section className="p-3 md:p-auto my-16 bg-[--]">
       <div className='mb-4 p-4'>
         <span className='mb-4 bg- p-10 text-xl md:text-4xl font-extrabold'>Our Popular Courses</span>
       </div>

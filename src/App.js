@@ -16,7 +16,11 @@ import PrivacyPolicy from './page/privacypolicy';
 import RefundPolicy from './page/refundpolicy';
 import Navbar from './components/Navbar';
 import RegistrationForm from './page/registrationForm';
+import CourseDetails from './components/courseDetails';
 
+import { motion } from "framer-motion";
+import { cn } from "./utils/cn";
+import BackgroundBeams from './components/background-beams';
 function App() {
   return (
     <div className="App">
@@ -33,9 +37,12 @@ function App() {
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/refund" element={<RefundPolicy />} />
           <Route path="/register" element={<RegistrationForm/>} />
+          <Route path="/courseDetails" element={<CourseDetails/>} />
           {/* <Route path="*" element={<Home />} /> */}
+          <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
+        <BackgroundBeams/>
     </div>
   );
 }

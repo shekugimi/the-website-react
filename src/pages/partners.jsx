@@ -6,8 +6,11 @@ function partners() {
   return (
     <div className="mt-28 mb-28">
       <div className="container px-4 md:px-6 mx-auto pb-16 flex flex-col items-center relative">
-        <div className="mb-8 text-center gradient__text">
-          We are Partners With Best Leading Companies
+        <div className="mb-8 text-center text-white">
+         <p className="text-3xl font-bold">
+
+         Our alumni works at
+         </p>
         </div>
         <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-8 w-full rounded-xl overflow-hidden">
           {companyData.map((company, index) => (

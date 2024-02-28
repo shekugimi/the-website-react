@@ -1,21 +1,21 @@
 [
   {
     "title": "Full Stack Web Development",
-    "image": "course1.jpg",
+    "image": "course2.jpg",
     "description": "Master front-end and back-end technologies. Build dynamic and responsive web applications for today's digital environment.",
     "registerLink": "course.html",
     "brochureLink": "course.html"
   },
   {
     "title": "Cloud Computing",
-    "image": "course2.jpg",
+    "image": "course2.svg",
     "description": "Understand cloud infrastructure, deployment, and management. Embrace scalable and efficient cloud solutions for modern applications.",
     "registerLink": "course.html",
     "brochureLink": "course.html"
   },
   {
     "title": "Data Science",
-    "image": "course3.jpg",
+    "image": "course3.png",
     "description": "Explore data analysis, machine learning, and data visualization. Harness the power of data for insightful decision-making.",
     "registerLink": "course.html",
     "brochureLink": "course.html"
@@ -37,11 +37,10 @@
   {
     "title": "Blockchain",
     "image": "course6.jpg",
-    "description": "Understand blockchain technology and its applications. Build secure and transparent digital systems.",
+    "description": "Understand blockchain technology and its applications. Build secure and transparent digital solutions.",
     "registerLink": "course.html",
     "brochureLink": "course.html"
-  }
-  ,
+  },
   {
     "title": "Artificial Intelligence",
     "image": "course7.jpg",
@@ -51,74 +50,27 @@
   },
   {
     "title": "Mobile App Development",
-    "image": "course8.jpg",
+    "image": "course10.jpg",
     "description": "Master mobile app development for iOS and Android. Create engaging and responsive mobile applications.",
     "registerLink": "course.html",
     "brochureLink": "course.html"
   },
   {
     "title": "DevOps",
-    "image": "course9.jpg",
-    "description": "Understand software development and IT operations. Create efficient and automated software delivery pipelines.",
-    "registerLink": "course.html",
-    "brochureLink": "course.html"
-  },
-  {
-    "title": "User Experience Design",
     "image": "course10.jpg",
-    "description": "Understand user needs and create engaging user experiences. Design intuitive and user-friendly digital products.",
+    "description": "Understand the DevOps culture and practices. Build efficient and automated software development and deployment pipelines.",
     "registerLink": "course.html",
     "brochureLink": "course.html"
   },
   {
-    "title": "Big Data",
+    "title": "Machine Learning",
     "image": "course11.jpg",
-    "description": "Explore data storage, processing, and analysis. Create scalable and efficient big data solutions.",
-    "registerLink": "course.html",
-    "brochureLink": "course.html"
-  },
-  {
-    "title": "Quantum Computing",
-    "image": "course12.jpg",
-    "description": "Understand quantum mechanics and quantum algorithms. Create powerful and efficient quantum computing systems.",
+    "description": "Understand machine learning algorithms and techniques. Create intelligent and predictive systems.",
     "registerLink": "course.html",
     "brochureLink": "course.html"
   }
-  ,
-  {
-    "title": "Robotics",
-    "image": "course13.jpg",
-    "description": "Explore robot design, control, and automation. Create intelligent and autonomous robotic systems.",
-    "registerLink": "course.html",
-    "brochureLink": "course.html"
-  },
-  {
-    "title": "Game Development",
-    "image": "course14.jpg",
-    "description": "Master game design, development, and testing. Create engaging and immersive digital games.",
-    "registerLink": "course.html",
-    "brochureLink": "course.html"
-  },
-  {
-    "title": "Virtual Reality",
-    "image": "course15.jpg",
-    "description": "Understand virtual reality technology and its applications. Create immersive and interactive virtual experiences.",
-    "registerLink": "course.html",
-    "brochureLink": "course.html"
-  },
-  {
-    "title": "Augmented Reality",
-    "image": "course16.jpg",
-    "description": "Explore augmented reality technology and its applications. Create interactive and engaging augmented experiences.",
-    "registerLink": "course.html",
-    "brochureLink": "course.html"
-  },
-  {
-    "title": "Digital Marketing",
-    "image": "course17.jpg",
-    "description": "Understand digital marketing strategies and tools. Create effective and engaging digital marketing campaigns.",
-    "registerLink": "course.html",
-    "brochureLink": "course.html"
-  }
+
+
+  
 
 ]

@@ -36,6 +36,13 @@ body {
 	color: var(--color-white);
 	background: var(--color-bg);
 }
+.scrollbar-none {
+	overflow: scroll;
+	scrollbar-width: none; /* Firefox */
+  }
+.scrollbar-none::-webkit-scrollbar {
+	display: none; /* WebKit browsers */
+}
 
 .container {
 	width: var(--container-width-lg);
@@ -86,13 +93,18 @@ img {
 }
 
 .btn {
-	display: inline-block;
 	background: var(--color-white);
 	color: var(--color-black);
 	padding: 1rem 2rem;
-	border: 1px solid transparent;
+	border-radius: 10px;
+	border: 2px solid transparent;
 	font-weight: 500;
-	transition: var(--transition)
+	transition: var(--transition);
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
 }
 
 .btn:hover {
@@ -120,14 +132,14 @@ nav {
 
 .window-scroll {
 	/* height: 4rem; */
-	background: rgba(10, 8, 103, 0.6);
+	background: rgb(11, 23, 235);
 	box-shadow: 0 8px 32px 0 rgba(48, 50, 119, 0.37);
 	backdrop-filter: blur(4.5px);
 	-webkit-backdrop-filter: blur(2.5px);
 }
 
 .nav_container {
-	height: 5rem;
+	/* height: 5rem; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -664,3 +676,6 @@ footer ul li a:hover {
 		justify-content: center;
 	}
 }
+body::-webkit-scrollbar {
+	display: none; /* WebKit browsers */
+  }
