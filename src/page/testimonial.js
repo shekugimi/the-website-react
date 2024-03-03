@@ -19,7 +19,7 @@ const Testimonials = () => {
             <img src={Avatar} />
           </div>
           <div className="testimonial_info">
-            <h5>Shivam Patidar</h5>
+            <h5>Rahul Sachdev</h5>
             <small>Data Science <br/> (Lovely prfessional University)</small>
           </div>
           <div className="testimonial_body bg-black ml-4">

@@ -154,15 +154,15 @@ input, textarea {
 .login-box form a {
 	position: relative;
 	display: inline-block;
-	padding: 10px 20px;
+	padding: 5px 10px;
 	color: #ffffff;
-	font-size: 32px;
+	font-size: 24px;
 	text-decoration: none;
 	text-transform: uppercase;
 	overflow: hidden;
 	transition: .5s;
-	margin-top: 40px;
-	letter-spacing: 4px
+	margin-top: 20px;
+	letter-spacing: 2px
   }
   
   .login-box a:hover {

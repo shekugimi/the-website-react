@@ -15,12 +15,16 @@ const Courses = () => {
       <div className='mb-4 p-4'>
         <span className='mb-4 bg- p-10 text-xl md:text-4xl font-extrabold'>Our Popular Courses</span>
       </div>
-      <div className="rounded rounded-3xl pb-2 max-w-screen flex flex-wrap items-center justify-center ">
+      <div className=" rounded-3xl  flex flex-wrap h-[50%]  max-h-[50%] flex items-center justify-center ">
         {coursesData.map((course, index) => (
           <article key={index} className=" bg-[#424890] m-2 p-2 lg:max-w-[30%] hover:bg-blue-500 hover:cursor-pointer transition rounded rounded-2xl min-w-screen ">
             <div className="course_image">
               {/* Use the require function to dynamically load images */}
-              <img src={require(`../data/images/${course.image}`)} alt={course.title} className=' rounded rounded-3xl' />
+              <img
+                src={require(`../data/images/Courses/${course.image}`)}
+                alt={course.title}
+                className="bg-contain w-full rounded rounded-inherit object-cover object-center"
+              />
             </div>
             <div className=' p-5 font-semibold'>
               <h4>{course.title}</h4>
@@ -32,9 +36,9 @@ const Courses = () => {
               <Link to='/register' className="btn btn-primary rounded-lg bg-orange-400" target="_blank" rel="noopener noreferrer">
                 Register
               </Link>
-              <a href={course.brochureLink} className="btn btn-primary rounded-lg bg-orange-400" target="_blank" rel="noopener noreferrer">
-                Brochure
-              </a>
+              <Link to={course.brochureLink} className="btn btn-primary rounded-lg bg-orange-400" target="_blank" rel="noopener noreferrer">
+                About
+              </Link>
             </div>
           </article>
         ))}

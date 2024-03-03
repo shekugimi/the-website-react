@@ -16,7 +16,7 @@ import PrivacyPolicy from './page/privacypolicy';
 import RefundPolicy from './page/refundpolicy';
 import Navbar from './components/Navbar';
 import RegistrationForm from './page/registrationForm';
-import CourseDetails from './components/courseDetails';
+import CourseDetails from './page/courseDetails';
 
 import { motion } from "framer-motion";
 import { cn } from "./utils/cn";

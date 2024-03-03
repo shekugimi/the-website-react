@@ -14,7 +14,7 @@ function Home() {
   return (
     <div>
       <Hero />
-      <WhyUs />
+      {/* <WhyUs /> */}
       <Course />
       <FeeStructure />
       <Partners />

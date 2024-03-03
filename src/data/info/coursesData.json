@@ -1,73 +1,73 @@
 [
   {
     "title": "Full Stack Web Development",
-    "image": "course2.jpg",
+    "image": "fullstack.jpg",
     "description": "Master front-end and back-end technologies. Build dynamic and responsive web applications for today's digital environment.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Cloud Computing",
-    "image": "course2.svg",
+    "image": "cloudcomputing.jpg",
     "description": "Understand cloud infrastructure, deployment, and management. Embrace scalable and efficient cloud solutions for modern applications.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Data Science",
-    "image": "course3.png",
+    "image": "datascience.jpg",
     "description": "Explore data analysis, machine learning, and data visualization. Harness the power of data for insightful decision-making.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Cybersecurity",
-    "image": "course4.jpg",
+    "image": "cybersecurity.jpg",
     "description": "Learn to secure digital assets and protect against cyber threats. Build a secure and resilient digital infrastructure.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Internet of Things",
-    "image": "course5.jpg",
+    "image": "IOT.jpg",
     "description": "Connect and control devices over the internet. Create smart and efficient systems for the digital age.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Blockchain",
-    "image": "course6.jpg",
+    "image": "blockchain.jpg",
     "description": "Understand blockchain technology and its applications. Build secure and transparent digital solutions.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Artificial Intelligence",
-    "image": "course7.jpg",
+    "image": "ai.jpg",
     "description": "Explore machine learning, neural networks, and natural language processing. Create intelligent and autonomous systems.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Mobile App Development",
-    "image": "course10.jpg",
+    "image": "appdev.jpg",
     "description": "Master mobile app development for iOS and Android. Create engaging and responsive mobile applications.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "DevOps",
-    "image": "course10.jpg",
+    "image": "devops.jpg",
     "description": "Understand the DevOps culture and practices. Build efficient and automated software development and deployment pipelines.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   },
   {
     "title": "Machine Learning",
-    "image": "course11.jpg",
+    "image": "ML.jpg",
     "description": "Understand machine learning algorithms and techniques. Create intelligent and predictive systems.",
     "registerLink": "course.html",
-    "brochureLink": "course.html"
+    "brochureLink": "https://drive.google.com/drive/folders/1j2pbfi0zJnkvNlw-3s06nxeM7Fsi5VGL?usp=drive_link"
   }
 
 

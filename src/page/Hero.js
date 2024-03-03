@@ -14,17 +14,20 @@ const Header = () => {
           <img src={headerImage} alt="mockup" />
         </div>
         <div className="mr-auto text-start place-self-center lg:col-span-7">
-          <span className="max-w-2xl text-xl md:text-4xl font-extrabold tracking-tight leading-none lg:text-5xl mb-10 dark:text-white">
-            Education Reimagined for the Modern Era
-          </span>
-          <p className="max-w-2xl my-6 font-light text-gray-500 lg:mb-8 text-sm md:text-lg dark:text-gray-400">
-            At Progyan Educations, we believe that education should be
-            personalized, engaging, and accessible to all. Fueled by the power
-            of Artificial Intelligence, we offer innovative learning solutions
-            designed to prepare students for the demands of the modern world.
+          <h1 className="text-4xl font-bold tracking-tight md:text-5xl mb-8">
+            {/* // Bolder, more concise headline */}
+            <span className="text-blue-400">
+            Progyan Educations' 
+            </span> <br/>
+             Education reimagined for the modern era.
+          </h1>
+          <p className="max-w-2xl lg:mb-8 font-normal text-lg">
+            {/* // Emphasis on innovation and impact */}
+            Harness cutting-edge AI tools and unlock limitless possibilities through Progyan Educations' immersive, live-streamed training and internships, designed for the modern world.
           </p>
-          <p className="max-w-2xl my-6 font-light text-gray-500 lg:mb-8 text-sm md:text-lg dark:text-gray-400">
-             for the demands of the modern world.
+          <p className="max-w-2xl lg:mb-8 text-2xl font-bold">
+            {/* // Clear call to action with a futuristic tone */}
+            Embrace the AI Revolution. Begin Your Journey Now.
           </p>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 md:flex">

@@ -6,7 +6,7 @@ import Nidhi from '../data/images/Members/team-nidhi.jpeg';
 import Nitesh from '../data/images/Members/team-nitesh.jpeg';
 import Satish from '../data/images/Members/team-satish.jpg';
 import Ujjwal from '../data/images/Members/team-ujjwal.jpeg';
-
+import Anuj from '../data/images/Members/team-anuj.jpg';
 import '../styles/style.css';
 
 const About = () => {
@@ -640,7 +640,7 @@ const About = () => {
           </div>
 
           <div className="bg-gray-950 rounded-lg shadow-md p-6 team-member">
-            <img src='' alt="CBO" className="w-32 h-32 mb-4 mx-auto rounded rounded-xl" />
+            <img src={Satish} alt="CBO" className="w-32 h-32 mb-4 mx-auto rounded rounded-xl" />
             <h3 className="text-2xl font-semibold text-blue-900 mb-2">Satish Chauhan</h3>
             <p className="text-sm text-white text-lg font-semibold mb-4">CBO (Chief Business OFficer)</p>
             <p className="text-sm text-white">
@@ -648,7 +648,7 @@ const About = () => {
             </p>
           </div>
           <div className="bg-gray-950 rounded-lg shadow-md p-6 team-member">
-            <img src='' alt="Anuj" className="w-32 h-32 mb-4 mx-auto rounded rounded-xl" />
+            <img src={Anuj} alt="Anuj" className="w-32 h-32 mb-4 mx-auto rounded rounded-xl" />
             <h3 className="text-2xl font-semibold text-blue-900 mb-2">Anuj Trivedi</h3>
             <p className="text-sm text-white text-lg font-semibold mb-4">Product Manager</p>
             <p className="text-sm text-white">
