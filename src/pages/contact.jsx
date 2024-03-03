@@ -27,7 +27,6 @@ const Contact = () => {
                   any questions. Our team is here to assist you.
                 </p>
                 <li className="flex text-start justify-between">
-
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2  text-lg font-medium leading-6 text-gray-900 dark:text-white">
                       Our Office Address
@@ -41,7 +40,6 @@ const Contact = () => {
                   </div>
                 </li>
                 <li className="flex text-start justify-between">
-
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 dark:text-white">
                       Contact
@@ -55,7 +53,6 @@ const Contact = () => {
                   </div>
                 </li>
                 <li className="flex text-start justify-between">
-
                   <div className="ml-4 mb-4">
                     <h3 className="mb-2  text-lg font-medium leading-6 text-gray-900 dark:text-white">
                       Working Hours
@@ -70,8 +67,13 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className="card h-fit max-w-6xl p-5 md:px-12  md:pt-8 login-box" id="form">
-              <h2 className="mb-4 text-2xl font-bold">Have a query ? Let Us Know</h2>
+            <div
+              className="card h-fit max-w-6xl p-5 md:px-12  md:pt-8 login-box"
+              id="form"
+            >
+              <h2 className="mb-4 text-2xl font-bold">
+                Have a query ? Let Us Know
+              </h2>
               <form className="bg-gray-80 rounded p-2 form">
                 <div className="mb-0">
                   <div className="mx-0 mb-1 sm:mb-4">
@@ -85,7 +87,7 @@ const Contact = () => {
                         id="name"
                         autoComplete="given-name"
                         placeholder="Your name"
-                        className="mb-2  w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        className="mb-2  w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0 input"
                         name="name"
                       />
                     </div>
@@ -99,7 +101,7 @@ const Contact = () => {
                         id="email"
                         autoComplete="email"
                         placeholder="Your email address"
-                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0 input"
                         name="email"
                       />
                     </div>
@@ -115,15 +117,14 @@ const Contact = () => {
                       cols="30"
                       rows="5"
                       placeholder="Write your message..."
-                      className=" w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                      className=" w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0 input"
                     ></textarea>
                   </div>
                 </div>
                 <center>
                   <a href="#">
-                      SEND
-                    <span>
-                    </span>
+                    SEND
+                    <span></span>
                   </a>
                 </center>
               </form>
