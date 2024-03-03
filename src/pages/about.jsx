@@ -17,8 +17,7 @@ const About = () => {
       <section className=" rounded  rounded-xl overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:bg-gray-950 lg:pb-[90px] bg-[--color-bg] dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
-            <div className="w-full lg:w-6/12 lg:h-full">
-              <div className="flex flex-col md:flex-row justify-center items-center  h-1/2 md:h-full px-2 w-full -mx-3 sm:-mx-4">
+            <div className="w-full p-10 lg:w-6/12 lg:h-full">
                   <div className="relative z-10 my-4  w-full flex self-center">
                     <img
                       src={ceoIcon}
@@ -597,10 +596,7 @@ const About = () => {
                       </svg>
                     </span>
                   </div>
-                
-                <div className="w-full px-3 sm:px-4 xl:w-1/2">
-                </div>
-              </div>
+              
             </div>
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">

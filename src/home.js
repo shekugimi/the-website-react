@@ -21,6 +21,7 @@ function Home() {
       <Partners />
       <FeeStructure />
       <Contact />
+      
       {/* <Achievements/> */}
       {/* Add any additional content for the Home page */}
     </div>

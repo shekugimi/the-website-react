@@ -39,6 +39,7 @@ function App() {
           <Route path="/register" element={<RegistrationForm/>} />
           <Route path="/courseDetails" element={<CourseDetails/>} />
           {/* <Route path="*" element={<Home />} /> */}
+          
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
