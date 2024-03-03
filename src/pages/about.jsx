@@ -1,12 +1,11 @@
 import React from 'react';
-import ceoIcon from '../data/images/ceo.jpeg'; // Replace with actual CEO image
-import teamIcon from '../data/images/ceo.jpeg'; // Replace with actual team member image
-import Abhishek from '../data/images/team-abhishekp.png';
-import Anurag from '../data/images/team-anurag.png';
-import Nidhi from '../data/images/team-nidhi.jpeg';
-import Nitesh from '../data/images/team-nitesh.jpeg';
-// import Satish from '../data/images/team-satish.jpg';
-import Ujjwal from '../data/images/team-ujjwal.jpeg';
+import ceoIcon from '../data/images/Members/team-Satyam.jpeg'; // Replace with actual CEO image
+import Abhishek from '../data/images/Members/team-abhishekp.png';
+import Anurag from '../data/images/Members/team-anurag.png';
+import Nidhi from '../data/images/Members/team-nidhi.jpeg';
+import Nitesh from '../data/images/Members/team-nitesh.jpeg';
+import Satish from '../data/images/Members/team-satish.jpg';
+import Ujjwal from '../data/images/Members/team-ujjwal.jpeg';
 
 import '../styles/style.css';
 

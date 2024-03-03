@@ -6,7 +6,7 @@ import Home from '../src/home'; // Assuming the home page is in 'pages/home.js'
 import Contact from './pages/contact';
 import About from './pages/about';
 import Courses from './pages/courses';
-import Header from './components/header';
+import Header from './page/Hero';
 import Footer from './components/footer';
 import Testimonials from './page/testimonial'; // Corrected 'page' to 'pages'
 import FAQs from './pages/faqs';
@@ -39,11 +39,10 @@ function App() {
           <Route path="/register" element={<RegistrationForm/>} />
           <Route path="/courseDetails" element={<CourseDetails/>} />
           {/* <Route path="*" element={<Home />} /> */}
-          
+
           <Route path="*" element={<Home />} />
         </Routes>
         <Footer />
-        <BackgroundBeams/>
     </div>
   );
 }
