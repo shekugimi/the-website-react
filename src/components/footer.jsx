@@ -10,6 +10,7 @@ import logo from "../data/images/logo.png";
 import { Link } from "react-router-dom";
 import "../styles/style.css";
 import Chat from "./chat";
+import Chatbtn from "../cards/chatbtn";
 
 const Footer = () => {
   const [chat, setChat] = useState(false);
@@ -125,11 +126,8 @@ const Footer = () => {
           Copyright &copy; PROGYAN EDUCATIONS ESTEEMED TO BE Pvt. Ltd.{" "}
         </small>
       </div>
-      <button
-        className="fixed bottom-5 right-5 btn btn-primary"
-        onClick={handleChat}
-      >
-        {chat ? "Close Chat" : "Chat with us"}
+      <button className="fixed bottom-5 right-5" onClick={handleChat}>
+        {chat ? "" : <Chatbtn />}
       </button>
       {chat && <Chat handleClose={handleChat} />}
     </footer>
