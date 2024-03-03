@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className="container my-30 py-10 bg-theme-neutral-600 p-10 w-full mt-4">
       <p className='text-4xl font-bold p-5 my-10'>About Progyan Educations Team </p>
-      <section className=" rounded  rounded-xl overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:bg-gray-950 lg:pb-[90px] bg-[--color-bg] dark:bg-dark">
+      <section className=" rounded  rounded-xl overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:bg-gray-950 lg:pb-[90px] bg-[--color-bg] bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full p-10 lg:w-6/12 lg:h-full">
@@ -601,13 +601,13 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0 ">
                 
-                <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-3xl font-bold text-dark text-white sm:text-[40px]/[48px]">
                   Satyam Singh
                 </h2>
-                <p className="mb-5 text-xl font-semibold text-body-color dark:text-dark-6">
+                <p className="mb-5 text-xl font-semibold text-body-color text-dark-6">
                   Founder and CEO
                 </p>
-                <p className="mb-8 text-base text-body-color dark:text-dark-6">
+                <p className="mb-8 text-base text-body-color text-dark-6">
                   Satyam Singh is the CEO of Progyan Educations. With years of experience in the education industry, Satyam leads the company with a vision to provide quality education to every student.
                 </p>
                 

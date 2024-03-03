@@ -58,11 +58,11 @@ const FeesStructure = () => {
                 src={course.image}
                 alt={course.title}
               />
-              <h5 className="m-2 text-2xl font-bold text-gray-900 dark:text-white">
+              <h5 className="m-2 text-2xl font-bold text-gray-900 text-white">
                 {course.title}
               </h5>
               <div className="px-5 h-[35%] ">
-                <p className=" dark:text-gray-400">
+                <p className=" text-gray-400">
                   {course.description}
                 </p>
               </div>
@@ -72,7 +72,7 @@ const FeesStructure = () => {
 
                   <Link
                     to={course.link}
-                    className="inline-flex my-2 items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="inline-flex my-2 items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                   >
                     Read More
                     <svg

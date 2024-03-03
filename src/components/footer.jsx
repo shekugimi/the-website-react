@@ -29,7 +29,7 @@ const Footer = () => {
               className="md:h-32 md:w-32 h-12 w-12 flex"
               alt="Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-left ml-5">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white text-left ml-5">
               {" "}
               Progyan <br /> Educations{" "}
             </span>
@@ -89,7 +89,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://youtube.com/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-900 hover:text-white"
               >
                 <FaYoutube size={20} />
               </a>
@@ -97,7 +97,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://instagram.com/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-900 hover:text-white"
               >
                 <FaInstagram size={20} />
               </a>
@@ -105,7 +105,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://twitter.com/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-900 hover:text-white"
               >
                 <FaTwitter size={20} />
               </a>
@@ -113,7 +113,7 @@ const Footer = () => {
             <li>
               <a
                 href="https://linkedin.com/in/progyaneducations"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-900 hover:text-white"
               >
                 <FaLinkedin size={20} />
               </a>

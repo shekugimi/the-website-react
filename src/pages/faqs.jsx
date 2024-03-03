@@ -12,11 +12,11 @@ const FAQs = () => {
   return (
     <section className="faqs">
       <h2 className="font-bold text-4xl">Frequently Asked Questions</h2>
-      <div className="container faqs_container">
+      <div className="container faqs_container ">
         {faqsData.map((faq, index) => (
           <article
             key={index}
-            className={`faq ${index === activeIndex ? "active" : ""}`}
+            className={`bg-[#424890] faq ${index === activeIndex ? "active" : ""}`}
           >
             <div className="faq_icon" onClick={() => toggleAccordion(index)}>
               {index === activeIndex ? (

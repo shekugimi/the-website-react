@@ -17,7 +17,7 @@ const Courses = () => {
       </div>
       <div className=" rounded-3xl  flex flex-wrap h-[50%]  max-h-[50%] flex items-center justify-center ">
         {coursesData.map((course, index) => (
-          <article key={index} className=" bg-[#424890] m-2 p-2 lg:max-w-[30%] hover:bg-blue-500 hover:cursor-pointer transition rounded rounded-2xl min-w-screen ">
+          <article key={index} className=" bg-[#424890] m-2 p-2 lg:max-w-[30%] hover:bg-blue-950 hover:cursor-pointer transition rounded rounded-2xl min-w-screen ">
             <div className="course_image">
               {/* Use the require function to dynamically load images */}
               <img
