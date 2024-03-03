@@ -70,7 +70,7 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-            <div className="card h-fit max-w-6xl p-5 md:p-12 login-box" id="form">
+            <div className="card h-fit max-w-6xl p-5 md:px-12  md:pt-8 login-box" id="form">
               <h2 className="mb-4 text-2xl font-bold">Have a query ? Let Us Know</h2>
               <form className="bg-gray-80 rounded p-2 form">
                 <div className="mb-0">
