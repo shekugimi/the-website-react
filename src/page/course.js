@@ -19,30 +19,28 @@ const Courses = () => {
       </div>
       <div className="rounded-3xl pb-2 flex dlex-col md:flex-row max-w-screen overflow-x-scroll scrollbar-none">
         {coursesData.slice(0, visibleCourses).map((course, index) => (
-          <article key={index} className="bg-[#424890] m-2 p-2 rounded-2xl">
-            <div className="course_image ">
+          <article key={index} className=" w-1/4 bg-[#424890] m-2 p-2 rounded-2xl">
+            <div className="course_image h-[50%]  max-h-[50%] flex items-center justify-center ">
               {/* Use the require function to dynamically load images */}
               <img
                 src={require(`../data/images/${course.image}`)}
                 alt={course.title}
-                className="rounded-3xl"
+                className="rounded-3xl h-[90%] w-[90%] object-cover object-center"
               />
             </div>
-            <div className=" p-5 font-semibold">
-              <h4>{course.title}</h4>
-            </div>
-            <div className=" p-5 md:course_info ">
+            <div className=" p-5 h-[40%]">
+              <h4 className="mb-4 font-semibold">{course.title}</h4>
               <p>{course.description}</p>
             </div>
-            <div className="m-5 bottom-0 flex flex-row items-center justify-between gap-5">
+            <div className="flex flex-row w-[100%] items-center justify-around ">
               <Link
                 to={{
                   pathname: `/course-details/${course.id}`, // Assuming course.id exists in coursesData
                   state: { course }, // Pass the course object as state
                 }}
-                className="btn btn-primary"
+                className="btn btn-primary w-[40%]"
               >
-                View Details
+                More
               </Link>
               <a
                 href={course.brochureLink}
@@ -57,15 +55,15 @@ const Courses = () => {
         ))}
       </div>
       {visibleCourses < coursesData.length && (
-        <div className="view-all-button-container mt-4">
+        <button className="view-all-button-container mt-4 border hover:border-transparent p-4 px-6 rounded roundeed-lg hover:bg-orange-600 font-semibold">
           <Link
             to="/courses"
-            className="btn btn-primary"
+            className=""
             onClick={handleViewAllCourses}
           >
             View All Courses
           </Link>
-        </div>
+        </button>
       )}
     </section>
   );
