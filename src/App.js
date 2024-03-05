@@ -21,6 +21,8 @@ import CourseDetails from './page/courseDetails';
 import { motion } from "framer-motion";
 import { cn } from "./utils/cn";
 import BackgroundBeams from './components/background-beams';
+import Register from './components/register';
+
 function App() {
   return (
     <div className="App">
@@ -37,7 +39,7 @@ function App() {
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/refund" element={<RefundPolicy />} />
           <Route path="/register" element={<RegistrationForm/>} />
-          <Route path="/courseDetails" element={<CourseDetails/>} />
+          <Route path="/courseDetails/:courseID" element={<Register/>} />
           {/* <Route path="*" element={<Home />} /> */}
 
           <Route path="*" element={<Home />} />

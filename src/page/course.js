@@ -31,7 +31,7 @@ const Courses = () => {
             <div className="avcard-btn">
               <Link
                 to={{
-                  pathname: `/course-details/${course.id}`, state: { course },
+                  pathname: `/courseDetails/${course.id}`, state: { course },
                 }}
                 className="btn btn-primary w-[40%]"
               >
@@ -49,11 +49,6 @@ const Courses = () => {
           </div>
         ))}
       </div>
-
-
-
-
-
 
       {visibleCourses < coursesData.length && (
         <button className="view-all-button-container mt-4 border border-transparent hover:border-white p-4 px-6 rounded rounded hover:bg-orange-500  bg-orange-600 font-semibold">
